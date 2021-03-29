@@ -14,3 +14,19 @@
 /mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/ref/tarea_1.dll
 /mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.pdb
 /mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.genruntimeconfig.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/bin/Debug/net5.0/tarea_1
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/bin/Debug/net5.0/tarea_1.deps.json
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/bin/Debug/net5.0/tarea_1.runtimeconfig.json
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/bin/Debug/net5.0/tarea_1.runtimeconfig.dev.json
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/bin/Debug/net5.0/tarea_1.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/bin/Debug/net5.0/ref/tarea_1.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/bin/Debug/net5.0/tarea_1.pdb
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.csprojAssemblyReference.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.GeneratedMSBuildEditorConfig.editorconfig
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.AssemblyInfoInputs.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.AssemblyInfo.cs
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.csproj.CoreCompileInputs.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/ref/tarea_1.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.pdb
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/Debug/net5.0/tarea_1.genruntimeconfig.cache
