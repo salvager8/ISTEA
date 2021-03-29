@@ -1,0 +1,16 @@
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/bin/Debug/net5.0/tarea_2_viernes
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/bin/Debug/net5.0/tarea_2_viernes.deps.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/bin/Debug/net5.0/tarea_2_viernes.runtimeconfig.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/bin/Debug/net5.0/tarea_2_viernes.runtimeconfig.dev.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/bin/Debug/net5.0/tarea_2_viernes.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/bin/Debug/net5.0/ref/tarea_2_viernes.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/bin/Debug/net5.0/tarea_2_viernes.pdb
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/tarea_2_viernes.csprojAssemblyReference.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/tarea_2_viernes.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/tarea_2_viernes.AssemblyInfoInputs.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/tarea_2_viernes.AssemblyInfo.cs
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/tarea_2_viernes.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/tarea_2_viernes.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/ref/tarea_2_viernes.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/tarea_2_viernes.pdb
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/temp/tarea_2_viernes/obj/Debug/net5.0/tarea_2_viernes.genruntimeconfig.cache
