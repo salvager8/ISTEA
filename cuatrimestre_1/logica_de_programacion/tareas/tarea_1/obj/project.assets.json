@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/tarea_1.csproj",
+      "projectUniqueName": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/tarea_1.csproj",
       "projectName": "tarea_1",
-      "projectPath": "/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/tarea_1.csproj",
+      "projectPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/tarea_1.csproj",
       "packagesPath": "/home/salvis/.nuget/packages/",
-      "outputPath": "/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/",
+      "outputPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/salvis/.nuget/NuGet/NuGet.Config"

@@ -1,53 +1,76 @@
 ﻿using System;
+using System.Threading;
 
 namespace tarea_1
 {
 	class Program
 	{
-		static int? GetNumberInput(int? valorEntrada) {
-			while (valorEntrada == null) {
-				try {
-					Console.Write("\n\nIngrese un valor de hasta 4 digitos: ");
-					valorEntrada = Convert.ToInt32(Console.ReadLine());
-				} catch {
-					Console.Write("El texto ingresado no es un numero, intente nuevamente");
-					Console.Write("\n\nIngrese un valor de hasta 4 digitos: ");
-				}
-			}
-			return valorEntrada;
-		}
-		static void Main(string[] args)
+		// Imprime el enunciado por pantalla
+		static void GetSummary()
 		{
-			// Enunciado
 			Console.ForegroundColor = ConsoleColor.White;
 			Console.WriteLine("\nEnunciado: \n");
 			Console.ForegroundColor = ConsoleColor.Blue;
 			Console.WriteLine("\tCrear una aplicación que permita el ingreso por pantalla de un numero de hasta 4 cifras");
 			Console.WriteLine("\ty devuelve si es par o impar, el proceso se debe repetir hasta que se ingrese el valor 0.");
 			Console.ResetColor();
+		}
 
-			int? valorEntrada = null;
+		// Toma el valor de entrada e intenta parsearlo a un entero
+		static int GetNumberInput(int inputValue)
+		{
+			// Pedir el valor por consola al usuario
+			Console.Write("\n\nIngrese un valor de hasta 4 digitos: ");
 
-			while (valorEntrada == null || valorEntrada != 0) {
-				valorEntrada = GetNumberInput(valorEntrada);
-				while (valorEntrada > 9999 || valorEntrada < -9999) {
-					Console.WriteLine("El numero que ingreso tiene mas de 4 digitos, intente nuevamente");
-					valorEntrada = null;
-					valorEntrada = GetNumberInput(valorEntrada);
-				}
+			// Condicionales
+			bool isInt = Int32.TryParse(Console.ReadLine(), out inputValue);
+			bool isGreaterThanFourDigits = (inputValue > 9999 || inputValue < -9999);
 
-				if (valorEntrada == 0) {
+			// Condiciones que deben cumplirse para que el input este correcto
+			if (!isInt) {
+				Console.ForegroundColor = ConsoleColor.Red;
+				Console.WriteLine("El texto ingresado no es un numero entero, intente nuevamente");
+				Console.ResetColor();
+				inputValue = GetNumberInput(inputValue);
+			} else if (isGreaterThanFourDigits) {
+				Console.ForegroundColor = ConsoleColor.Red;
+				Console.WriteLine("El numero que ingreso tiene mas de 4 digitos, intente nuevamente");
+				Console.ResetColor();
+				inputValue = GetNumberInput(inputValue);
+			}
+			return inputValue;
+		}
+
+		static void Main(string[] args)
+		{
+			// Enunciado
+			GetSummary();
+
+			// Inicializacion de variables
+			int inputValue = 0;
+
+			// Ciclo principal
+			do {
+				inputValue = GetNumberInput(inputValue);
+
+				if (inputValue == 0) {
 					continue;
 				}
 
-				if (valorEntrada % 2 == 0) {
-					Console.WriteLine(string.Format("El numero {0} es par", valorEntrada));
-					valorEntrada = null;
+				if (inputValue % 2 == 0) {
+					Console.ForegroundColor = ConsoleColor.Blue;
+					Console.WriteLine(string.Format("\n\tEl numero {0} es par", inputValue));
+					Console.ResetColor();
+					Thread.Sleep(3000);
+					Console.Clear();
 				} else {
-					Console.WriteLine(string.Format("El numero {0} es impar", valorEntrada));
-					valorEntrada = null;
+					Console.ForegroundColor = ConsoleColor.Blue;
+					Console.WriteLine(string.Format("\n\tEl numero {0} es impar", inputValue));
+					Console.ResetColor();
+					Thread.Sleep(3000);
+					Console.Clear();
 				}
-			}
+			} while (inputValue != 0);
 
 			Console.WriteLine("Hasta Luego.");
 		}
