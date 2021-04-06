@@ -1,0 +1,16 @@
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/bin/Debug/net5.0/tarea_2
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/bin/Debug/net5.0/tarea_2.deps.json
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/bin/Debug/net5.0/tarea_2.runtimeconfig.json
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/bin/Debug/net5.0/tarea_2.runtimeconfig.dev.json
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/bin/Debug/net5.0/tarea_2.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/bin/Debug/net5.0/ref/tarea_2.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/bin/Debug/net5.0/tarea_2.pdb
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/tarea_2.csprojAssemblyReference.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/tarea_2.GeneratedMSBuildEditorConfig.editorconfig
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/tarea_2.AssemblyInfoInputs.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/tarea_2.AssemblyInfo.cs
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/tarea_2.csproj.CoreCompileInputs.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/tarea_2.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/ref/tarea_2.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/tarea_2.pdb
+/home/salvis/home/ISTEA/cuatrimestre_1/logica_de_programacion/tareas/tarea_2/obj/Debug/net5.0/tarea_2.genruntimeconfig.cache
