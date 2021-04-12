@@ -74,7 +74,8 @@ namespace tarea_1
 
 			// Inicializar variables
 			int[] arraySolution = new int[arraySize];
-			int maxNumber = 0;
+			int? maxNumber = null;
+			int? minNumber = null;
 			string message = "\t";
 
 			// Inicializar clase Random para generar numeros aleatorios
@@ -83,8 +84,17 @@ namespace tarea_1
 			// Ciclo principal
 			for (int i = 0; i < arraySize; i++) {
 				int newArrayEntry = randomManager.Next(randomBottomNumber, randomTopNumber);
+				if (maxNumber == null) {
+					maxNumber = newArrayEntry;
+				}
+				if (minNumber == null) {
+					minNumber = newArrayEntry;
+				}
 				if (newArrayEntry > maxNumber) {
 					maxNumber = newArrayEntry;
+				}
+				if (newArrayEntry < minNumber) {
+					minNumber = newArrayEntry;
 				}
 				arraySolution[i] = newArrayEntry;
 				message += Convert.ToString(newArrayEntry) + ", ";
@@ -103,6 +113,7 @@ namespace tarea_1
 			}
 			Console.WriteLine("\n}");
 			Console.WriteLine("\nEl Maximo valor del array es: "+maxNumber);
+			Console.WriteLine("El Minimo valor del array es: "+minNumber);
 		}
 	}
 }

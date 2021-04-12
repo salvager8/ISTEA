@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/tareas/tarea_2/tarea_2_viernes.csproj",
-      "projectName": "tarea_2_viernes",
-      "projectPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/tareas/tarea_2/tarea_2_viernes.csproj",
+      "projectUniqueName": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/tareas/tarea_2/tarea_2.csproj",
+      "projectName": "tarea_2",
+      "projectPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/tareas/tarea_2/tarea_2.csproj",
       "packagesPath": "/home/salvis/.nuget/packages/",
       "outputPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/tareas/tarea_2/obj/",
       "projectStyle": "PackageReference",
