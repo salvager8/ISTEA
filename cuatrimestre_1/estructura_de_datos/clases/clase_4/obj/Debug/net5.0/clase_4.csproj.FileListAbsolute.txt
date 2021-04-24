@@ -1,0 +1,16 @@
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/bin/Debug/net5.0/clase_4
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/bin/Debug/net5.0/clase_4.deps.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/bin/Debug/net5.0/clase_4.runtimeconfig.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/bin/Debug/net5.0/clase_4.runtimeconfig.dev.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/bin/Debug/net5.0/clase_4.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/bin/Debug/net5.0/ref/clase_4.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/bin/Debug/net5.0/clase_4.pdb
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/clase_4.csprojAssemblyReference.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/clase_4.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/clase_4.AssemblyInfoInputs.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/clase_4.AssemblyInfo.cs
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/clase_4.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/clase_4.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/ref/clase_4.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/clase_4.pdb
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/clases/clase_4/obj/Debug/net5.0/clase_4.genruntimeconfig.cache

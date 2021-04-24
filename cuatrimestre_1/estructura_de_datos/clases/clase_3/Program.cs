@@ -22,10 +22,10 @@ namespace clase_3
 				Console.WriteLine();
 			}
 
-			Console.Write(matrix[0]);
-			for (int i = 0; i < 3; i++) {
-				Console.WriteLine(string.Join("\t", matrix[i]));
-			}
+			// Console.Write(matrix[0]);
+			// for (int i = 0; i < 3; i++) {
+			// 	Console.WriteLine(string.Join("\t", matrix[i]));
+			// }
         }
     }
 }

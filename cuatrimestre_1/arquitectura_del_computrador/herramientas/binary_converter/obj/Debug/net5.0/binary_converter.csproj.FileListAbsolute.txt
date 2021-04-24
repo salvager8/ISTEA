@@ -1,0 +1,16 @@
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/bin/Debug/net5.0/binary_converter
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/bin/Debug/net5.0/binary_converter.deps.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/bin/Debug/net5.0/binary_converter.runtimeconfig.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/bin/Debug/net5.0/binary_converter.runtimeconfig.dev.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/bin/Debug/net5.0/binary_converter.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/bin/Debug/net5.0/ref/binary_converter.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/bin/Debug/net5.0/binary_converter.pdb
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/binary_converter.csprojAssemblyReference.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/binary_converter.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/binary_converter.AssemblyInfoInputs.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/binary_converter.AssemblyInfo.cs
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/binary_converter.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/binary_converter.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/ref/binary_converter.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/binary_converter.pdb
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/Debug/net5.0/binary_converter.genruntimeconfig.cache
