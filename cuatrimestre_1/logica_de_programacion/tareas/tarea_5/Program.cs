@@ -49,6 +49,7 @@ namespace tarea_5
 			// Inicializar variables
 			TimeSpan dueLastPayment;
 			int days;
+			int countPartners = 0;
 
 			// Ciclo principal
 			for (int i = 0; i < lastPayment.Length; i++) {
@@ -56,9 +57,11 @@ namespace tarea_5
 				days = dueLastPayment.Days;
 
 				if (days > 60) {
+					countPartners++;
 					Console.WriteLine("El socio {0} debera abonar nuevamente la matricula", i + 1);
 				}
 			}
+			Console.WriteLine("La cantidad de socios que deben abonar son: {0}", countPartners);
         }
     }
 }
