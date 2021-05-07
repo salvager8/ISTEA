@@ -1,0 +1,16 @@
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.deps.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.runtimeconfig.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.runtimeconfig.dev.json
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ref/ejercicio_2.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.pdb
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.csprojAssemblyReference.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.AssemblyInfoInputs.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.AssemblyInfo.cs
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ref/ejercicio_2.dll
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.pdb
+/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/logica_de_programacion/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.genruntimeconfig.cache
