@@ -1,0 +1,16 @@
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.csprojAssemblyReference.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.GeneratedMSBuildEditorConfig.editorconfig
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.AssemblyInfoInputs.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.AssemblyInfo.cs
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.csproj.CoreCompileInputs.cache
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.deps.json
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.runtimeconfig.json
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.runtimeconfig.dev.json
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ref/ejercicio_2.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/bin/Debug/net5.0/ejercicio_2.pdb
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ref/ejercicio_2.dll
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.pdb
+/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/Debug/net5.0/ejercicio_2.genruntimeconfig.cache
