@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/binary_converter.csproj",
+      "projectUniqueName": "/home/salvis/home/ISTEA/cuatrimestre_1/arquitectura_del_computrador/herramientas/binary_converter/binary_converter.csproj",
       "projectName": "binary_converter",
-      "projectPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/binary_converter.csproj",
+      "projectPath": "/home/salvis/home/ISTEA/cuatrimestre_1/arquitectura_del_computrador/herramientas/binary_converter/binary_converter.csproj",
       "packagesPath": "/home/salvis/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_del_computador/herramientas/binary_converter/obj/",
+      "outputPath": "/home/salvis/home/ISTEA/cuatrimestre_1/arquitectura_del_computrador/herramientas/binary_converter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/salvis/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,44 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace binary_converter
 {
     class Program
     {
+		static string GetHexadecimalEquivalent(string term) {
+			List<string> constants = new List<string>() { "A", "B", "C", "D", "E", "F" };
+
+			int parsedTerm = Int16.Parse(term);
+			if (parsedTerm < 10) {
+				return term;
+			}
+			return constants[parsedTerm - 10];
+		}
+
 		static string DecimalToBinary(int decimalNumber, int binaryBase, string converted) {
             int newDecimalNumber = decimalNumber / binaryBase;
-			if (decimalNumber % 2 == 0) {
-				converted = "0" + converted;
-			} else {
-				converted = "1" + converted;
+			string rest = Convert.ToString(decimalNumber % binaryBase);
+			string sufix = "";
+			switch (binaryBase) {
+				case 2:
+					sufix = "base 2";
+					if (rest == "0") {
+						converted = "0" + converted;
+					} else {
+						converted = "1" + converted;
+					}
+					break;
+				case 8:
+					sufix = "base 8";
+					converted = rest + converted;
+					break;
+				case 16:
+					sufix = "base 16";
+					converted = GetHexadecimalEquivalent(rest) + converted;
+					break;
 			}
-			if (decimalNumber != 1) {
+
+			if (decimalNumber != 1 && decimalNumber > binaryBase) {
 				converted = DecimalToBinary(newDecimalNumber, binaryBase, converted);
 			}
 			return converted;
