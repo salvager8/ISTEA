@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/ejercicio_2.csproj",
+      "projectUniqueName": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/ejercicio_2.csproj",
       "projectName": "ejercicio_2",
-      "projectPath": "/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/ejercicio_2.csproj",
+      "projectPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/ejercicio_2.csproj",
       "packagesPath": "/home/salvis/.nuget/packages/",
-      "outputPath": "/home/salvis/home/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/",
+      "outputPath": "/mnt/c/Users/Salva ISTEA/Desktop/ISTEA/cuatrimestre_1/estructura_de_datos/parciales/parcial_1/ejercicio_2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/salvis/.nuget/NuGet/NuGet.Config"

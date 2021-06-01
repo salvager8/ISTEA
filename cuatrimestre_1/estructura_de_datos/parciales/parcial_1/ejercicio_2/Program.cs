@@ -33,69 +33,8 @@ namespace ejercicio_1
 			Console.ResetColor();
 		}
 
-		// Imprime una linea de guiones por consola
-		static void ImprimirLinea() {
-			Console.WriteLine("\t-------------------------------------------------------------------------------------------------------------");
-		}
-
-		// Imprime la grilla de bingo por pantalla
-		// static bool ImprimirBingo(int[,] bingo, int primerNumero = 0, int segundoNumero = 0) {
-		// 	Console.ForegroundColor = ConsoleColor.Blue;
-		// 	Console.WriteLine("Tabla de Bingo:\n");
-		// 	Console.ResetColor();
-		// 	bool primerNumeroEnBingo = false;
-		// 	bool segundoNumeroEnBingo = false;
-
-		// 	ImprimirLinea();
-		// 	Console.Write("\t|");
-		// 	int contador = 0;
-		// 	foreach (int numero in bingo) {
-		// 		if (contador == 9) {
-		// 			Console.Write("\n");
-		// 			contador = 0;
-		// 			ImprimirLinea();
-		// 			Console.Write("\t|");
-		// 		}
-
-		// 		if (primerNumero > 0) {
-		// 			if (numero == primerNumero) {
-		// 				Console.BackgroundColor = ConsoleColor.Red;
-		// 				primerNumeroEnBingo = true;
-		// 			} else if (numero == segundoNumero) {
-		// 				Console.BackgroundColor = ConsoleColor.Red;
-		// 				segundoNumeroEnBingo = true;
-		// 			}
-		// 		}
-
-		// 		if (numero > 9) {
-		// 			Console.Write("     "+numero+"    ");
-		// 		} else {
-		// 			Console.Write("     "+numero+"     ");
-		// 		}
-
-		// 		Console.ResetColor();
-		// 		contador++;
-		// 		Console.Write("|");
-		// 	}
-		// 	Console.Write("\n");
-		// 	ImprimirLinea();
-
-		// 	if (primerNumero > 0 && (!primerNumeroEnBingo || !segundoNumeroEnBingo)) {
-		// 		Console.ForegroundColor = ConsoleColor.Red;
-		// 		Console.WriteLine("\nNo ha habido bingo, debe volver a intentar");
-		// 		Console.ResetColor();
-		// 		Console.WriteLine("\nPresione [ENTER] para continuar");
-		// 		ConsoleKeyInfo keyInfo = Console.ReadKey();
-		// 		while (keyInfo.Key != ConsoleKey.Enter)
-		// 			keyInfo = Console.ReadKey();
-		// 		Console.Clear();
-		// 	}
-
-		// 	return primerNumeroEnBingo && segundoNumeroEnBingo;
-		// }
-
 		// Toma el valor de entrada e intenta convertirlo a un entero
-		static int ObtenerNumeroDeEntrada(int valorEntrada, string mensaje) {
+		static int ObtenerNumeroDeEntrada(int valorEntrada, string mensaje, bool validarColumnas) {
 			Console.Clear();
 			Console.ForegroundColor = ConsoleColor.Blue;
 			Console.Write(mensaje);
@@ -104,36 +43,75 @@ namespace ejercicio_1
 			bool isInt = int.TryParse(Console.ReadLine(), out valorEntrada);
 			if (!isInt) {
 				ImprimirError("El texto debe ser un numero entero, intente nuevamente\n");
-				valorEntrada = ObtenerNumeroDeEntrada(valorEntrada, mensaje);
-			} else if (valorEntrada < 0) {
-				ImprimirError("El numero ingresado debe ser positivo, intente nuevamente\n");
-				valorEntrada = ObtenerNumeroDeEntrada(valorEntrada, mensaje);
-			} else if (valorEntrada < 0 || valorEntrada > 10) {
-				ImprimirError("El numero ingresado es invalido, debe estar entre 0 y 10, 0 para salir\n");
-				valorEntrada = ObtenerNumeroDeEntrada(valorEntrada, mensaje);
+				valorEntrada = ObtenerNumeroDeEntrada(valorEntrada, mensaje, validarColumnas);
+			} else if (valorEntrada <= 0) {
+				ImprimirError("El numero ingresado debe ser positivo y distinto de cero, intente nuevamente\n");
+				valorEntrada = ObtenerNumeroDeEntrada(valorEntrada, mensaje, validarColumnas);
+			} else if (!validarColumnas && valorEntrada > 4) {
+				ImprimirError("El numero ingresado es invalido, debe estar entre 1 y 4\n");
+				valorEntrada = ObtenerNumeroDeEntrada(valorEntrada, mensaje, validarColumnas);
+			} else if (valorEntrada > 30) {
+				ImprimirError("El numero ingresado es invalido, debe estar entre 1 y 30\n");
+				valorEntrada = ObtenerNumeroDeEntrada(valorEntrada, mensaje, validarColumnas);
 			}
 
 			return valorEntrada;
 		}
 
-		static void ImprimirCierre() {
-			Console.ForegroundColor = ConsoleColor.Green;
-			Console.WriteLine("Hasta Luego!");
+		// Imprime un titulo con formato especial
+		static void ImprimirTitulo(string mensaje) {
+			Console.BackgroundColor = ConsoleColor.Blue;
+			Console.ForegroundColor = ConsoleColor.Black;
+			Console.Write(mensaje);
 			Console.ResetColor();
 		}
 
-		static int CalcularOperacion(int primerNumero, int operacion, int segundoNumero) {
+		// Calcula segun una operacion dada
+		static double CalcularOperacion(double primerNumero, double operacion, double segundoNumero, double[] promedios) {
 			switch (operacion) {
 				case 1:
+					if (promedios[0] == 0) {
+						promedios[0] = primerNumero + segundoNumero;
+					} else {
+						promedios[0] = Math.Min(promedios[0], primerNumero + segundoNumero);
+					}
 					return primerNumero + segundoNumero;
 				case 2:
+					if (promedios[1] == 0) {
+						promedios[1] = primerNumero - segundoNumero;
+					} else {
+						promedios[1] = Math.Max(promedios[1], primerNumero - segundoNumero);
+					}
 					return primerNumero - segundoNumero;
 				case 3:
+					promedios[2] += primerNumero * segundoNumero;
 					return primerNumero * segundoNumero;
 				case 4:
-					return primerNumero / segundoNumero;
+					promedios[3] += Math.Round(primerNumero / segundoNumero, 4);
+					return Math.Round(primerNumero / segundoNumero, 4);
 				default:
 					return 0;
+			}
+		}
+
+		// Cambia el color para mostrar el resultado de una operacion
+		static void TomarColorPorOperacion(double operacion) {
+			switch (operacion) {
+				case 1:
+					Console.ForegroundColor = ConsoleColor.Red;
+					break;
+				case 2:
+					Console.ForegroundColor = ConsoleColor.Blue;
+					break;
+				case 3:
+					Console.ForegroundColor = ConsoleColor.Yellow;
+					break;
+				case 4:
+					Console.ForegroundColor = ConsoleColor.Green;
+					break;
+				default:
+					Console.ResetColor();
+					break;
 			}
 		}
 
@@ -141,35 +119,113 @@ namespace ejercicio_1
 		{
 			ImprimirEnunciado();
 
-			int numeroDeFilas = ObtenerNumeroDeEntrada(0, "Por favor introduzca el numero de filas (1 a 4)");
-			int numeroDeColumnas = ObtenerNumeroDeEntrada(0, "Por favor introduzca el numero de columnas (1 a 30)");
-
-			int[,] operaciones = new int [numeroDeFilas, numeroDeColumnas];
+			// Declaracion de variables
+			int numeroDeFilas = ObtenerNumeroDeEntrada(0, "Por favor introduzca el numero de filas (1 a 4): ", false);
+			int numeroDeColumnas = ObtenerNumeroDeEntrada(0, "Por favor introduzca el numero de columnas (1 a 30): ", true);
+			double[] promedios = new double [4];
+			double numeroMaximo = 0;
+			double numeroMinimo = 0;
+			int cantidadDivisiones = 0;
+			double[,] operaciones = new double [numeroDeFilas, numeroDeColumnas];
 			Random manejadorRandom = new Random();
 
-			// Genera el array bidimendional de la grilla de bingo
-			for (int i = 0; i < operaciones.GetLength(0); i++) {
-				for (int j = 0; j < operaciones.GetLength(1); j++) {
+			// Genera el array bidimensional de la grilla de bingo
+			for (int i = 0; i < numeroDeFilas; i++) {
+				for (int j = 0; j < numeroDeColumnas; j++) {
 					switch (i) {
 						case 0:
 						case 2:
 							operaciones[i, j] = manejadorRandom.Next(100, 1001);
 							break;
 						case 1:
-							operaciones[i, j] = manejadorRandom.Next(1, 6);
+							operaciones[i, j] = manejadorRandom.Next(1, 5);
 							break;
 						case 3:
-							operaciones[i, j] = CalcularOperacion(operaciones[0, j], operaciones[1, j], operaciones[2, j]);
+							operaciones[i, j] = CalcularOperacion(operaciones[0, j], operaciones[1, j], operaciones[2, j], promedios);
+							if (operaciones[1, j] == 4) {
+								cantidadDivisiones++;
+							}
+							if (numeroMaximo == 0) {
+								numeroMaximo = operaciones[i, j];	
+							} else {
+								numeroMaximo = Math.Max(numeroMaximo, operaciones[i, j]);
+							}
+
+							if (numeroMinimo == 0) {
+								numeroMinimo = operaciones[i, j];
+							} else {
+								numeroMinimo = Math.Min(numeroMinimo, operaciones[i, j]);
+							}
 							break;
 					}
 				}
 			}
 
-			// Inicializacion de variables
-			int primerNumero = 0;
-			int segundoNumero = 0;
+			// Declarar variables para impresion
+			int deltaColumnas = 0;
+			int auxiliarColumnas = numeroDeColumnas;
+			int columnasMenores = 0;
 
+
+			// Imprimir la tabla ya generada con formato
+			Console.Clear();
+			ImprimirTitulo("Tabla ordenada:\n\n");
+			while (true) {
+				Console.Write("\t");
+				for (int i = 0; i < numeroDeFilas; i++) {
+					columnasMenores = Math.Min(auxiliarColumnas, 10);
+					for (int j = 0; j < columnasMenores; j++) {
+						if (i == 3) {
+							TomarColorPorOperacion(operaciones[1, j + deltaColumnas]);
+						}
+						Console.Write("\t"+operaciones[i, j + deltaColumnas]+"\t");
+
+						Console.ResetColor();
+
+						if (j == Math.Min(auxiliarColumnas - 1, 9) && i != numeroDeFilas - 1) {
+							Console.Write("\n");
+							Console.Write("\t");
+						}
+					}
+				}
+				Console.Write("\n\n");
+
+				deltaColumnas += 10;
+				auxiliarColumnas -= 10;
+				if (auxiliarColumnas < 0) {
+					break;
+				}
+			}
 			
+			// Impresion de resultados
+			ImprimirTitulo("Resultados:");
+			Console.Write("\n");
+
+			Console.Write("\n\tEl Maximo de todos los resultados es: {0}", numeroMaximo);
+			Console.Write("\n\tEl Minimo de todos los resultados es: {0}", numeroMinimo);
+
+			Console.WriteLine("\n\nPor operacion:");
+
+			Console.ForegroundColor = ConsoleColor.Red;
+			Console.Write("\n\tSuma: \n");
+			Console.ResetColor();
+			Console.Write("\t\tEl minimo de las sumas es: {0}\n", promedios[0]);
+
+			Console.ForegroundColor = ConsoleColor.Blue;
+			Console.Write("\n\tResta: \n");
+			Console.ResetColor();
+			Console.Write("\t\tEl maximo de las restas es: {0}\n", promedios[1]);
+
+
+			Console.ForegroundColor = ConsoleColor.Yellow;
+			Console.Write("\n\tMultiplicacion: \n");
+			Console.ResetColor();
+			Console.Write("\t\tLa suma de las multiplicaciones es: {0}\n", promedios[2]);
+
+			Console.ForegroundColor = ConsoleColor.Green;
+			Console.Write("\n\tDivision: \n");
+			Console.ResetColor();
+			Console.Write("\t\tEl promedio de las divisiones es: {0}\n", promedios[3] / cantidadDivisiones);
 		}
 	}
 }
