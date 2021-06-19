@@ -29,7 +29,7 @@ namespace tarea_8
 			Console.ResetColor();
 		}
 
-		static int ObtenerNumeroEntrada(int valorEntrada, string mensaje, bool validarOpcion) {
+		static int ObtenerNumeroEntrada(int valorEntrada, string mensaje, bool validarOpcion = false) {
 			Console.ForegroundColor = ConsoleColor.Blue;
 			Console.Write(mensaje);
 			Console.ResetColor();
@@ -63,7 +63,7 @@ namespace tarea_8
 			Thread.Sleep(3000);
 			Console.ResetColor();
 
-			Console.Write("\nPor favor ingrese el array: ");
+			Console.Write("\nPor favor ingrese el array (no coloque espacios): ");
 			string arrayEntrada = Console.ReadLine();
 			string[] arrayTransformado = ObtenerArrayDeString(arrayEntrada);
 			int totalSuma = 0;
@@ -88,7 +88,7 @@ namespace tarea_8
 			Thread.Sleep(3000);
 			Console.ResetColor();
 
-			Console.Write("\nPor favor ingrese el array: ");
+			Console.Write("\nPor favor ingrese el array (no coloque espacios): ");
 			string arrayEntrada = Console.ReadLine();
 			string[] arrayTransformado = ObtenerArrayDeString(arrayEntrada);
 			int totalSuma = 0;
@@ -109,15 +109,16 @@ namespace tarea_8
 			return totalSuma / contador;
 		}
 
-		static int Ejercicio3() {
+		static int? Ejercicio3() {
 			Console.ForegroundColor = ConsoleColor.Blue;
 			Console.Write("Selecciono el ejercicio 3, una aplicación consola que devuelva el valor maximo de un array enviado por argumento.");
 			Thread.Sleep(3000);
 			Console.ResetColor();
 
-			Console.Write("\nPor favor ingrese el array: ");
+			Console.Write("\nPor favor ingrese el array (no coloque espacios): ");
 			string arrayEntrada = Console.ReadLine();
 			string[] arrayTransformado = ObtenerArrayDeString(arrayEntrada);
+			int? valorMaximoActual = null;
 			foreach (string valor in arrayTransformado) {
 				int valorActual = 0;
 				bool esEntero = int.TryParse(valor, out valorActual);
@@ -125,17 +126,79 @@ namespace tarea_8
 					Console.ForegroundColor = ConsoleColor.Red;
 					Console.WriteLine("Alguno de los valores que introdujo no es un valor entero, intente nuevamente");
 					ImprimirError();
-					return Ejercicio2();
+					return Ejercicio3();
+				}
+				if (valorMaximoActual == null || valorMaximoActual < valorActual) {
+					valorMaximoActual = valorActual;
 				}
 			}
-			return ;
+			return valorMaximoActual;
+		}
+
+		static int? Ejercicio4() {
+			Console.ForegroundColor = ConsoleColor.Blue;
+			Console.Write("Selecciono el ejercicio 4, una aplicación consola que devuelva el valor minimo de un array enviado por argumento.");
+			Thread.Sleep(3000);
+			Console.ResetColor();
+
+			Console.Write("\nPor favor ingrese el array (no coloque espacios): ");
+			string arrayEntrada = Console.ReadLine();
+			string[] arrayTransformado = ObtenerArrayDeString(arrayEntrada);
+			int? valorMaximoActual = null;
+			foreach (string valor in arrayTransformado) {
+				int valorActual = 0;
+				bool esEntero = int.TryParse(valor, out valorActual);
+				if (!esEntero) {
+					Console.ForegroundColor = ConsoleColor.Red;
+					Console.WriteLine("Alguno de los valores que introdujo no es un valor entero, intente nuevamente");
+					ImprimirError();
+					return Ejercicio4();
+				}
+				if (valorMaximoActual == null || valorMaximoActual > valorActual) {
+					valorMaximoActual = valorActual;
+				}
+			}
+			return valorMaximoActual;
+		}
+
+		static bool BuscarNumeroEnArrayBidimensional(int[,] arrayBidimencional, int numeroBuscar) {
+			foreach (int valor in arrayBidimencional) {
+				if (numeroBuscar == valor) {
+					return true;
+				}
+			}
+			return false;
+		}
+
+		static void Ejercicio5() {
+			Console.ForegroundColor = ConsoleColor.Blue;
+			Console.Write("Selecciono el ejercicio 5, una aplicación consola que envia a una función un array bidimencional y un numero entero y la función devolvera  \"Dato Encontrado\" si el dato esta dentro del array.");
+			Thread.Sleep(3000);
+			Console.ResetColor();
+
+			int[,] arrayBidimencional = new int[5,3] {
+				{10,21,77},
+				{55,42,12},
+				{11,67,33},
+				{23,27,98},
+				{15,45,100}
+			};
+
+			int numeroBuscar = ObtenerNumeroEntrada(0, "\nPor favor introduzca el numero entero a buscar (1 al 100): ");
+			
+			bool datoEncontrado = BuscarNumeroEnArrayBidimensional(arrayBidimencional, numeroBuscar);
+			if (datoEncontrado) {
+				Console.WriteLine("Dato Encontrado");
+			} else {
+				Console.WriteLine("Dato no Encontrado");
+			}
 		}
 
         static void Main(string[] args) {
 			ImprimirEnunciado();
 
 			int ejercicio = ObtenerNumeroEntrada(0, "Por favor, elija un ejercicio (1 al 5): ", true);
-			int total = 0;
+			int? total = 0;
 			switch (ejercicio) {
 				case 1:
 					total = Ejercicio1();
@@ -152,6 +215,9 @@ namespace tarea_8
 				case 4:
 					total = Ejercicio4();
 					Console.WriteLine("El minimo del array que introdujo es: {0}", total);
+					break;
+				case 5:
+					Ejercicio5();
 					break;
 			}
         }
