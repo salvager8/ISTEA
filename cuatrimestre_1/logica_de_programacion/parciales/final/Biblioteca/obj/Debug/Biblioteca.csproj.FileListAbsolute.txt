@@ -1,6 +1,0 @@
-C:\Users\Salva ISTEA\Desktop\ISTEA\cuatrimestre_1\logica_de_programacion\parciales\final\Biblioteca\bin\Debug\Biblioteca.dll
-C:\Users\Salva ISTEA\Desktop\ISTEA\cuatrimestre_1\logica_de_programacion\parciales\final\Biblioteca\bin\Debug\Biblioteca.pdb
-C:\Users\Salva ISTEA\Desktop\ISTEA\cuatrimestre_1\logica_de_programacion\parciales\final\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
-C:\Users\Salva ISTEA\Desktop\ISTEA\cuatrimestre_1\logica_de_programacion\parciales\final\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
-C:\Users\Salva ISTEA\Desktop\ISTEA\cuatrimestre_1\logica_de_programacion\parciales\final\Biblioteca\obj\Debug\Biblioteca.dll
-C:\Users\Salva ISTEA\Desktop\ISTEA\cuatrimestre_1\logica_de_programacion\parciales\final\Biblioteca\obj\Debug\Biblioteca.pdb
