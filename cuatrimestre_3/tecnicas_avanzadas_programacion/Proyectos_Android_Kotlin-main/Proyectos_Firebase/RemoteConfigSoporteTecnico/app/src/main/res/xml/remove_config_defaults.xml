@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>main_message</key>
+        <value>BIENVENIDO A K-MOBILE\\nREGISTRESE Y ESPERE SU TURNO.\\nGRACIAS.</value>
+    </entry>
+
+    <entry>
+        <key>show_name</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>color_primary</key>
+        <value>#0099cc</value>
+    </entry>
+
+    <entry>
+        <key>color_text_message</key>
+        <value>#33b5e5</value>
+    </entry>
+
+    <entry>
+        <key>color_button</key>
+        <value>#ff4081</value>
+    </entry>
+</defaultsMap>

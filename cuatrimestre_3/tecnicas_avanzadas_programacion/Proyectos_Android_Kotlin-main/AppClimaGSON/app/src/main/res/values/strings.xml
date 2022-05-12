@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ClimaGSON</string>
+    <string name="intro_clima">Bienvenido a mi app de clima para poder ver el clima de una ciudad selecciona la opción de abajo.</string>
+</resources>

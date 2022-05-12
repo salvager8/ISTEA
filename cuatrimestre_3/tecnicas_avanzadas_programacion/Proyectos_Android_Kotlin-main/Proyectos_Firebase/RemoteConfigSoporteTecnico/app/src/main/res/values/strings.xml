@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RemoteConfig Soporte Tecnico</string>
+    <string name="dummy_button">Solicitar turno</string>
+    <string name="dummy_content">BIENVENIDO, REGISTRESE Y ESPERE SU TURNO. GRACIAS.</string>
+    <string name="hint.name">nombre</string>
+    <string name="hint.phone">teléfono</string>
+    <string name="registrarTurno.message.config.remote">Configuración Remota</string>
+    <string name="registrarTurno.message.config.local">Configuración local</string>
+    <string name="registrarTurno.message.success">GRACIAS!\nTOME ASIENTO Y\nNOSOTROS LO LLAMAREMOS.</string>
+</resources>

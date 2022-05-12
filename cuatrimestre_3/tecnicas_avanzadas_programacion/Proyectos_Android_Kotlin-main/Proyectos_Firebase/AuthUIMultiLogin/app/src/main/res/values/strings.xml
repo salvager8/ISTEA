@@ -1,0 +1,9 @@
+<resources>
+    <string name="facebook_application_id">966986680463828</string>
+
+    <string name="app_name">AuthUI Multi Login</string>
+    <string name="main.hint.userName">Nombre</string>
+    <string name="main.hint.email">Correo</string>
+    <string name="main.hint.provider">Proveedor</string>
+    <string name="main.menu.signOut">Cerrar Sesión</string>
+</resources>

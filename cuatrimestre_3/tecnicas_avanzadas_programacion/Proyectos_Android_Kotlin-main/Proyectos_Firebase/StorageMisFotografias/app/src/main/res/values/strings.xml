@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Storage Mis Fotografias</string>
+    <string name="title_galley">Galería</string>
+    <string name="title_camera">Cámara</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="main.label.upload">Subir</string>
+    <string name="main.message.upload.success">Imágen subida exitosamente</string>
+    <string name="main.message.done">Listo!</string>
+    <string name="main.message.upload.error">Error al subir la imágen, intente más tarde.</string>
+    <string name="main.message.delete.success">Imagen eliminada correctamente.</string>
+    <string name="main.message.delete.error">Error al eliminar.</string>
+    <string name="main.message.error.notFound">La imagen no se pudo carga, ¿Añadir una?</string>
+    <string name="main.message.question.upload">¿Desea subir esta imágen?</string>
+</resources>

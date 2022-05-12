@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="placeholder_movie_title">Hunger Games</string>
+    <string name="placeholder_movie_country">USA</string>
+</resources>

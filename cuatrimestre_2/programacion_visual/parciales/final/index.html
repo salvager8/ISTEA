@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/styles_parcial_2.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="locked" id="locked">
+		<b><span class="login-text-a">La cuenta ha sido bloqueada por maximo de intentos fallidos alcanzados.</span></b><br>
+	</div>
+	<div class="login" id="login">
+		<form id="login-form">
+			<b><span class="login-text-a">Nombre de Usuario:</span></b><br>
+			<input type="text" class="login-user" id="login-user"><br>
+			<span class="login-error-user" id="login-error-user">El usuario no es valido, debe ser un email</span><br>
+			<b><span class="login-text">Contraseña:</span></b><br>
+			<input type="password" class="login-pass" id="login-pass"><br>
+			<span class="login-error-pass" id="login-error-pass">La contraseña no es valida, debe ser numerica<br>y contener entre 1 y 2 caracteres numericos</span><br>
+			<button type="submit" class="login-item">Iniciar sesion</button><br>
+			<span class="login-error-submit" id="login-error-submit">El usuario y contraseña que introdujo no son validos</span>
+		</form>
+	</div>
+	<div class="content" id="content">
+		<p><b>Hola, <span id="logged-user"></span>!</b></p>
+		Hora Actual: <span id="current-time"></span>
+		<p><b>Ingrese el id del personaje que desea conocer</b></p>
+		<input type="number" id="id-character">
+		<span class="error-id" id="error-id">El id debe estar entre 1 y 826</span><br>
+		<table class="container">
+			<thead>
+				<tr>
+					<th>
+						<h1>id</h1>
+					</th>
+					<th>
+						<h1>name</h1>
+					</th>
+					<th>
+						<h1>status</h1>
+					</th>
+					<th>
+						<h1>species</h1>
+					</th>
+					<th>
+						<h1>type</h1>
+					</th>
+					<th>
+						<h1>gender</h1>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td id="id"></td>
+					<td id="name"></td>
+					<td id="status"></td>
+					<td id="species"></td>
+					<td id="type"></td>
+					<td id="gender"></td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="actual-image"></div>
+		<button id="log-out">Cerrar Sesion</button>
+	</div>
+</body>
+</html>

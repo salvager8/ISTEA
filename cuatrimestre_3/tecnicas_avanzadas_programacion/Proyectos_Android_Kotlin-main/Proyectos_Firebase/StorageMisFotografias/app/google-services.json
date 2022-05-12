@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "27472086617",
+    "firebase_url": "https://hellofirebaseandroid-98d62.firebaseio.com",
+    "project_id": "hellofirebaseandroid-98d62",
+    "storage_bucket": "hellofirebaseandroid-98d62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27472086617:android:43857f09f3b6285f8a5348",
+        "android_client_info": {
+          "package_name": "mx.com.fcmofertas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27472086617-qd0m9t8sjd6a9k7ju16uji2vlkdcb34v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qmGTMbUU8OwCzW88KyEDSq9-p8vrtyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27472086617-qd0m9t8sjd6a9k7ju16uji2vlkdcb34v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27472086617:android:8ab9e2c0be985c8f8a5348",
+        "android_client_info": {
+          "package_name": "mx.com.firebasemenudecomidas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27472086617-qd0m9t8sjd6a9k7ju16uji2vlkdcb34v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qmGTMbUU8OwCzW88KyEDSq9-p8vrtyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27472086617-qd0m9t8sjd6a9k7ju16uji2vlkdcb34v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27472086617:android:d15f04c0b9a396d28a5348",
+        "android_client_info": {
+          "package_name": "mx.com.hellofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27472086617-qd0m9t8sjd6a9k7ju16uji2vlkdcb34v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qmGTMbUU8OwCzW88KyEDSq9-p8vrtyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27472086617-qd0m9t8sjd6a9k7ju16uji2vlkdcb34v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27472086617:android:9ec39f4e07bbd8378a5348",
+        "android_client_info": {
+          "package_name": "mx.com.storagemisfotografias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27472086617-qd0m9t8sjd6a9k7ju16uji2vlkdcb34v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qmGTMbUU8OwCzW88KyEDSq9-p8vrtyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27472086617-qd0m9t8sjd6a9k7ju16uji2vlkdcb34v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

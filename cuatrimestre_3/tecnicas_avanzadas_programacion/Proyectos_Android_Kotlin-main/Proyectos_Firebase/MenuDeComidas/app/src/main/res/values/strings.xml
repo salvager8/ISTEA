@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FIrebaseMenuDeComidas</string>
+    <string name="title_comida_list">Menu de Comidas</string>
+    <string name="title_comida_detail">Comida Detail</string>
+    <string name="comidaList_dialog.title">Mi código</string>
+    <string name="comidaList.dialog.ok">OK</string>
+</resources>

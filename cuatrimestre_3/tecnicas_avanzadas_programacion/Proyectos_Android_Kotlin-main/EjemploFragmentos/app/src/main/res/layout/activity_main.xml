@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/btnAddFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir Fragmento" />
+
+    <Button
+        android:id="@+id/btnReplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reemplazar Fragmento" />
+
+</LinearLayout>

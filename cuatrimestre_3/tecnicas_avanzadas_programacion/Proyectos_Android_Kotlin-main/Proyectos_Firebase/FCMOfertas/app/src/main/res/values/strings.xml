@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FCM Ofertas</string>
+
+    <string name="normal.channel.id">channel.id.notification.normal</string>
+    <string name="normal.channel.name">Oferta normal</string>
+    <string name="low.channel.id">channel.id.notification.low</string>
+    <string name="low.channel.name">Oferta baja</string>
+
+    <string-array name="topics">
+        <item>Comidas y bebidas</item>
+        <item>Electrónica</item>
+        <item>Viajes</item>
+    </string-array>
+    <string-array name="topicsValues">
+        <item>food_and_drinks</item>
+        <item>electronics</item>
+        <item>travels</item>
+    </string-array>
+
+</resources>
